@@ -9,15 +9,26 @@ body {
 	-webkit-background-size: 100%;
 	-moz-background-size: 100%;
 	background-size: 100%;*/
-    background: url(circuit_dark.jpg) no-repeat center center fixed; 
+    background: url(images/indianflagtop.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-	height:600px;  
+	height:300px;  
+	padding-top: 0px;
 	padding-bottom: 20px;
 	margin-bottom:0px;
 	color:#eee;
+}
+
+#flag {
+	background: url(indianflaptop.jpg) no-repeat center center fixed; 
+}
+
+#flagtop {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;	
 }
 
 #center {
@@ -40,11 +51,11 @@ body {
 #logo {
 	display: block;
     margin-left: auto;
-    margin-right: auto }
+    margin-right: auto;
 }
 
 #body {
-	background-color: #dcdcdc;
+	background-color: #eee;
 }
 
 #foot {
@@ -59,28 +70,34 @@ body {
 	background-color: #93B1C6;
 }
 
+#heading {
+	background-color: #dcdcdc;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
 #about {
 	background-color: #C7D0D5;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 #speakers {
 	background-color: #93B1C6;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 #register {
 	background-color: #F5F5F5;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 #sponsors {
 	background-color: #EC583A;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 #teampic {
@@ -110,7 +127,7 @@ body {
 	display: block;
 }
 
-.team {
+.speaker {
 	display: inline-block;
 	padding: 10px;
 	position: relative;
@@ -118,7 +135,7 @@ body {
 	text-align: left;
 }
 
-#teampics {
+#speakerpics {
 	height: 200px;
 	display: block;
 }
