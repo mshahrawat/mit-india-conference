@@ -54,6 +54,10 @@ body {
     margin-right: auto;
 }
 
+#padding {
+	padding: 10px;
+}
+
 #body {
 	background-color: #eee;
 }
@@ -71,7 +75,7 @@ body {
 }
 
 #heading {
-	background-color: #dcdcdc;
+	background-color: #8A8B8C;
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
@@ -125,6 +129,29 @@ body {
 #partners {
 	height: 60px;
 	display: block;
+}
+
+#contact {
+	background-color: #A31F34;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color: #dcdcdc;
+}
+
+#nameField {
+	border-radius: 5px;
+	width: 300px;
+}
+
+#messageField {
+	border-radius: 5px;
+	width: 600px;
+	height: 200px;
+}
+
+#sendmessage {
+	background-color: #8A8B8C;
+	border-color: #8A8B8C;
 }
 
 .speaker {
