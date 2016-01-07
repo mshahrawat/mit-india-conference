@@ -31,13 +31,17 @@ body {
     margin-right: auto;	
 }
 
+#tabcolor {
+	color: #A31F34;
+}
+
 #center {
 	text-align: center;
 }
 
 #navbar-brand {
-	padding:0px;
-	height:25px;
+	padding:20px;
+	height:40px;
 }
 
 #logobrand {
@@ -45,7 +49,8 @@ body {
 }
 
 #navbar-scroller {
-	padding:7px;
+	padding:20px;
+	height: 40px;
 }
 
 #logo {
@@ -74,32 +79,54 @@ body {
 	background-color: #93B1C6;
 }
 
+#regbut {
+	padding-left: 20px;
+}
+
+
+
 #heading {
-	background-color: #8A8B8C;
-	padding-top: 30px;
+	background-color: #000000;
+	padding-top: 50px;
 	padding-bottom: 30px;
+	font-size: 40px;
+	font-family: "Arial, "Book Antiqua", Palatino, serif";
+	color: white;
+}
+
+#MainPhoto {
+	width:1200px;
+	height:800px;
 }
 
 #about {
-	background-color: #C7D0D5;
+	/**background-color: #C7D0D5;**/
+	background-color: #000000;
 	padding-top: 30px;
 	padding-bottom: 30px;
+	font-family: ""Palatino Linotype", "Book Antiqua", Palatino, serif";
+	font-size: 20px;
+	color: maroon;
+}
+
+#abouttext {
+	font-size: 30px;
 }
 
 #speakers {
-	background-color: #93B1C6;
+	background-color: #000000;
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
 
 #register {
-	background-color: #F5F5F5;
+	background-color: #000000;
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
 
 #sponsors {
-	background-color: #EC583A;
+	background-color: #000000;
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
