@@ -1,0 +1,319 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+.jumbotron {
+	/*background: url("assets/img/background.jpg") no-repeat;
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	background-size: 100%;*/
+    background: url(images/indianflagtop.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	height:300px;  
+	padding-top: 0px;
+	padding-bottom: 20px;
+	margin-bottom:0px;
+	color:#eee;
+}
+
+#flag {
+	background: url(indianflaptop.jpg) no-repeat center center fixed; 
+}
+
+#flagtop {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;	
+}
+
+#tabcolor {
+	color: #A31F34;
+}
+
+#center {
+	text-align: center;
+}
+
+#title {
+	text-align: center;
+	font-size: 100px;
+	padding-top: 400px;
+}
+
+#navbar-brand {
+	padding:0px;
+	height:40px;
+}
+
+#logobrand {
+	height:35px;
+}
+
+#navbar-scroller {
+	padding:10px;
+}
+
+#logo {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#padding {
+	padding: 10px;
+}
+
+#body {
+	background-color: #FCFDFE;
+}
+
+#foot {
+	text-align: center;
+}
+
+#black {
+	color: black;
+}
+
+#pillpadding {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+#reg {
+	background-color: #ee693f;
+}
+
+#orangetext {
+	color: #ee693f;
+}
+
+#heading {
+	background-color: #FCFDFE;
+	color: #FCFDFE;
+	background: url(http://cdn.wonderfulengineering.com/wp-content/uploads/2015/04/india-wallpaper-6.jpg);
+	background-size: cover;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	font-size: 40px;
+	height: 900px;
+	font-family: 'Muli' ;
+}
+
+#MainPhoto {
+	width:1200px;
+	height:800px;
+}
+
+#about {
+	/**background-color: #C7D0D5;**/
+	background-color: #FCFDFE;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 20px;
+}
+
+#abouts {
+	padding-top: 20px;
+}
+
+#ww {
+	background-color: #f69454;
+	background-size: cover;
+	color: #FCFDFE;
+	border-radius: 25px;
+}
+
+#theme {
+	background-color: #fcfdfe;
+	background-size: cover;
+	border: 2px solid;
+	border-color: #b6e1fc;
+	border-radius: 25px;
+}
+
+#sns {
+	background-color: #739f3d;
+	background-size: cover;
+	color: #fcfdfe;
+	border-radius: 25px;
+}
+
+#speakers {
+	background-color: #f69454;
+	color: #fcfdfe;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#register {
+	background-color: #739f3d;
+	color: #fcfdfe;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#sponsors {
+	background-color: #FCFDFE;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#teampic {
+	height:300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#platinum {
+	height: 160px;
+	display: block;
+}
+
+#gold {
+	height: 120px;
+	display: block;
+}
+
+#silver {
+	height: 100px;
+	display: block;
+}
+
+#partners {
+	height: 60px;
+	display: block;
+}
+
+#contact {
+	background-color: #A31F34;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color: #dcdcdc;
+}
+
+#nameField {
+	border-radius: 5px;
+	width: 300px;
+}
+
+#messageField {
+	border-radius: 5px;
+	width: 600px;
+	height: 200px;
+}
+
+#sendmessage {
+	background-color: #8A8B8C;
+	border-color: #8A8B8C;
+}
+
+.speaker {
+	display: inline-block;
+	padding: 10px;
+	position: relative;
+	color: #fff;
+	text-align: left;
+}
+
+#speakerpics {
+	height: 200px;
+	display: block;
+}
+
+/** Code for descriptions to show up for speakers **/
+
+.photo {
+	text-align: center;
+	display: inline-block;
+	padding: 10px;
+	position: relative;
+	color: #fff;
+	font-family: 'Pontano Sans', sans-serif;
+}
+
+.photo a:link,
+.photo a:active,
+.photo a:visited,
+.photo a:hover {
+	text-decoration: none;
+}
+
+.photo .info {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	right: 10px;
+	background-color: rgba(82, 144, 255, 0.6);
+	padding-bottom: 5px;
+
+	display: none;
+	font-size: 14px;
+	text-align: center;
+}
+
+
+/** Code for Social Media Icons **/
+.social {
+    margin: 0;
+    padding: 0;
+}
+
+.social ul {
+    margin: 0;
+    padding: 5px;
+}
+
+.social ul li {
+    margin: 5px;
+    list-style: none outside none;
+    display: inline-block;
+}
+
+.social i {
+    width: 40px;
+    height: 40px;
+    color: #FFF;
+    background-color: #909AA0;
+    font-size: 22px;
+    text-align:center;
+    padding-top: 12px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.social i:hover {
+    color: #FFF;
+    text-decoration: none;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.social .fa-facebook:hover {
+    background: #4060A5;
+}
+
+.social .fa-twitter:hover {
+    background: #00ABE3;
+}
+
+.social .fa-linkedin:hover {
+    background: #0094BC;
+}
