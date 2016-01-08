@@ -315,3 +315,7 @@ body {
 .social .fa-linkedin:hover {
     background: #0094BC;
 }
+
+.label-default {
+	background-color: #739f3d;
+}
