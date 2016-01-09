@@ -6,10 +6,6 @@ body {
 }
 
 .jumbotron {
-	/*background: url("assets/img/background.jpg") no-repeat;
-	-webkit-background-size: 100%;
-	-moz-background-size: 100%;
-	background-size: 100%;*/
     background: url(images/indianflagtop.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -32,17 +28,10 @@ body {
     margin-right: auto;	
 }
 
+/**Navbar Tab CSS**/
+
 #tabcolor {
 	color: #A31F34;
-}
-
-#center {
-	text-align: center;
-}
-
-#title {
-	text-align: center;
-	font-size: 100px;
 }
 
 #navbar-brand {
@@ -64,22 +53,6 @@ body {
     margin-right: auto;
 }
 
-#padding {
-	padding: 10px;
-}
-
-#body {
-	background-color: #FCFDFE;
-}
-
-#foot {
-	text-align: center;
-}
-
-#black {
-	color: black;
-}
-
 #pillpadding {
 	padding-left: 25px;
 	padding-right: 25px;
@@ -92,6 +65,9 @@ body {
 #orangetext {
 	color: #ee693f;
 }
+/***********************/
+
+/**Heading CSS**/
 
 #heading {
 	background-color: #FCFDFE;
@@ -109,8 +85,15 @@ body {
 	height:800px;
 }
 
+#title {
+	text-align: center;
+	font-size: 100px;
+}
+
+/******************/
+
+/**Conference Details/About Section CSS**/
 #about {
-	/**background-color: #C7D0D5;**/
 	background-color: #FCFDFE;
 	padding-top: 30px;
 	padding-bottom: 30px;
@@ -142,75 +125,14 @@ body {
 	color: #fcfdfe;
 	border-radius: 25px;
 }
+/******************/
 
+/**Speakers Section CSS**/
 #speakers {
 	background-color: #f69454;
 	color: #fcfdfe;
 	padding-top: 30px;
 	padding-bottom: 30px;
-}
-
-#register {
-	background-color: #739f3d;
-	color: #fcfdfe;
-	padding-top: 30px;
-	padding-bottom: 30px;
-}
-
-#sponsors {
-	background-color: #FCFDFE;
-	padding-top: 30px;
-	padding-bottom: 30px;
-}
-
-#teampic {
-	height:300px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-#platinum {
-	height: 160px;
-	display: block;
-}
-
-#gold {
-	height: 120px;
-	display: block;
-}
-
-#silver {
-	height: 100px;
-	display: block;
-}
-
-#partners {
-	height: 60px;
-	display: block;
-}
-
-#contact {
-	background-color: #A31F34;
-	padding-top: 30px;
-	padding-bottom: 30px;
-	color: #dcdcdc;
-}
-
-#nameField {
-	border-radius: 5px;
-	width: 300px;
-}
-
-#messageField {
-	border-radius: 5px;
-	width: 600px;
-	height: 200px;
-}
-
-#sendmessage {
-	background-color: #8A8B8C;
-	border-color: #8A8B8C;
 }
 
 .speaker {
@@ -226,6 +148,12 @@ body {
 	display: block;
 }
 
+#teampic {
+	height:300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 /** Code for descriptions to show up for speakers **/
 
 .photo {
@@ -256,6 +184,71 @@ body {
 	font-size: 14px;
 	text-align: center;
 }
+/******************/
+/******************/
+
+/**Registration Section CSS**/
+#register {
+	background-color: #739f3d;
+	color: #fcfdfe;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+/******************/
+
+/**Sponsors Section CSS**/
+#sponsors {
+	background-color: #FCFDFE;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#platinum {
+	height: 160px;
+	display: block;
+}
+
+#gold {
+	height: 120px;
+	display: block;
+}
+
+#silver {
+	height: 100px;
+	display: block;
+}
+
+#partners {
+	height: 60px;
+	display: block;
+}
+/******************/
+
+/**Contact US CSS**/
+
+#contact {
+	background-color: #A31F34;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color: #dcdcdc;
+}
+
+#nameField {
+	border-radius: 5px;
+	width: 300px;
+}
+
+#messageField {
+	border-radius: 5px;
+	width: 600px;
+	height: 200px;
+}
+
+#sendmessage {
+	background-color: #8A8B8C;
+	border-color: #8A8B8C;
+}
+/******************/
 
 
 /** Code for Social Media Icons **/
@@ -315,7 +308,47 @@ body {
 .social .fa-linkedin:hover {
     background: #0094BC;
 }
+/******************/
+
+/**Schedule CSS**/
+
+#schedule {
+	background-color: #FCFDFE;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 20px;
+}
 
 .label-default {
 	background-color: #739f3d;
 }
+
+#schedule-speaker {
+	border-radius: 100px;
+	height: 60px;
+}
+
+#schedule-table {
+	width: 950px;
+	margin-left: auto;
+	margin-right: auto;
+}
+/******************/
+
+/**Footer CSS**/
+
+#foot {
+	text-align: center;
+}
+
+/*********************/
+
+/**Random CSS**/
+#center {
+	text-align: center;
+}
+
+#padding {
+	padding: 10px;
+}
+/********************/
