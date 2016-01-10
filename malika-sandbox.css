@@ -109,6 +109,7 @@ body {
 	background-size: cover;
 	color: #FCFDFE;
 	border-radius: 25px;
+	height: 300px;
 }
 
 #theme {
@@ -117,6 +118,8 @@ body {
 	border: 2px solid;
 	border-color: #b6e1fc;
 	border-radius: 25px;
+	height: 300px;
+
 }
 
 #sns {
@@ -124,6 +127,8 @@ body {
 	background-size: cover;
 	color: #fcfdfe;
 	border-radius: 25px;
+	height: 300px;
+
 }
 /******************/
 
@@ -252,23 +257,7 @@ body {
 
 
 /** Code for Social Media Icons **/
-.social {
-    margin: 0;
-    padding: 0;
-}
-
-.social ul {
-    margin: 0;
-    padding: 5px;
-}
-
-.social ul li {
-    margin: 5px;
-    list-style: none outside none;
-    display: inline-block;
-}
-
-.social i {
+i {
     width: 40px;
     height: 40px;
     color: #FFF;
@@ -287,7 +276,7 @@ body {
     -ms-transition: all ease 0.3s;
 }
 
-.social i:hover {
+i:hover {
     color: #FFF;
     text-decoration: none;
     transition: all ease 0.3s;
@@ -297,15 +286,15 @@ body {
     -ms-transition: all ease 0.3s;
 }
 
-.social .fa-facebook:hover {
+.fa-facebook-square:hover {
     background: #4060A5;
 }
 
-.social .fa-twitter:hover {
+.fa-twitter-square:hover {
     background: #00ABE3;
 }
 
-.social .fa-linkedin:hover {
+.fa-linkedin-square:hover {
     background: #0094BC;
 }
 /******************/
