@@ -149,7 +149,7 @@ body {
 }
 
 #speakerpics {
-	height: 200px;
+	height: 220px;
 	display: block;
 }
 
@@ -166,8 +166,9 @@ body {
 	display: inline-block;
 	padding: 10px;
 	position: relative;
-	color: #fff;
-	font-family: 'Pontano Sans', sans-serif;
+	color: #739F3D;
+	/**font-family: 'Pontano Sans', sans-serif;**/
+	font-family: 'Maven Pro', sans-serif;
 }
 
 .photo a:link,
@@ -182,12 +183,13 @@ body {
 	bottom: 10px;
 	left: 10px;
 	right: 10px;
-	background-color: rgba(82, 144, 255, 0.6);
-	padding-bottom: 5px;
+	background-color: rgba(252, 253, 254, 1);
+	padding: 5px;
+	height: 220px;
 
 	display: none;
 	font-size: 14px;
-	text-align: center;
+	text-align: left;
 }
 /******************/
 /******************/
@@ -209,24 +211,28 @@ body {
 }
 
 #platinum {
-	height: 160px;
+	/**height: 160px;**/
+	height: 80px;
 	display: block;
 }
 
 #gold {
-	height: 120px;
+	/**height: 120px;**/
+	height: 80px;
 	display: block;
 }
 
 #silver {
-	height: 100px;
+	height: 80px;
 	display: block;
 }
 
 #partners {
-	height: 60px;
+	/**height: 60px;**/
+	height: 80px;
 	display: block;
 }
+
 /******************/
 
 /**Contact US CSS**/
