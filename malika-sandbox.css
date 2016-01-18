@@ -193,6 +193,11 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+#pic-modal {
+	width: 166px;
+	border-radius: 3px;
+}
 /** Code for descriptions to show up for speakers **/
 
 .photo {
