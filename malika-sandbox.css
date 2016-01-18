@@ -5,29 +5,6 @@ body {
   font-family: 'Maven Pro', sans-serif;
 }
 
-.jumbotron {
-    background: url(images/indianflagtop.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-	height:300px;  
-	padding-top: 0px;
-	padding-bottom: 20px;
-	margin-bottom:0px;
-	color:#eee;
-}
-
-#flag {
-	background: url(indianflaptop.jpg) no-repeat center center fixed; 
-}
-
-#flagtop {
-	display: block;
-    margin-left: auto;
-    margin-right: auto;	
-}
-
 /**Navbar Tab CSS**/
 
 #tabcolor {
@@ -65,9 +42,9 @@ body {
 #orangetext {
 	color: #ee693f;
 }
-/***********************/
+/*******************************/
 
-/**Heading CSS**/
+/**Heading CSS and Jumbotrons***/
 
 #heading {
 	background-color: #FCFDFE;
@@ -80,6 +57,63 @@ body {
 	height: 900px;
 }
 
+.jumbotron {
+    background: url(images/FB/10-dark.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	height:700px;  
+	padding-top: 0px;
+	padding-bottom: 20px;
+	margin-bottom:0px;
+	color:#fff;
+}
+
+.jumbotron-speaker1 {
+	background: url(images/FB/2-dark.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	height:400px;  
+	padding-top: 0px;
+	padding-bottom: 20px;
+	margin-bottom:0px;
+	color:#fff;
+}
+
+.jumbotron-speaker2 {
+	background: url(images/FB/11-dark.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	height:400px;  
+	padding-top: 0px;
+	padding-bottom: 20px;
+	margin-bottom:0px;
+	color:#fff;
+}
+
+.jumbotron-speaker3 {
+	background: url(images/FB/13-dark.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	height:400px;  
+	padding-top: 0px;
+	padding-bottom: 20px;
+	margin-bottom:0px;
+	color:#fff;
+}
+
+#registerbtn {
+	background-color: #EE693F;
+	border-color: #EE693F;
+}
+
 #MainPhoto {
 	width:1200px;
 	height:800px;
@@ -90,7 +124,7 @@ body {
 	font-size: 100px;
 }
 
-/******************/
+/****************************************/
 
 /**Conference Details/About Section CSS**/
 #about {
@@ -130,7 +164,7 @@ body {
 	height: 300px;
 
 }
-/******************/
+/***************************/
 
 /**Speakers Section CSS**/
 #speakers {
@@ -183,7 +217,7 @@ body {
 	bottom: 10px;
 	left: 10px;
 	right: 10px;
-	background-color: rgba(252, 253, 254, 1);
+	background-color: rgba(252, 253, 254, .8);
 	padding: 5px;
 	height: 220px;
 
@@ -192,7 +226,7 @@ body {
 	text-align: left;
 }
 /******************/
-/******************/
+/***************************/
 
 /**Registration Section CSS**/
 #register {
@@ -202,6 +236,16 @@ body {
 	padding-bottom: 30px;
 }
 /******************/
+
+/**Contact Us Section CSS *****/
+#contactinfo {
+	background-color: #739f3d;
+	color: #fcfdfe;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+/******************************/
 
 /**Sponsors Section CSS**/
 #sponsors {
@@ -233,7 +277,7 @@ body {
 	display: block;
 }
 
-/******************/
+/**********************/
 
 /**Contact US CSS**/
 
@@ -330,7 +374,7 @@ i:hover {
 }
 /******************/
 
-/**Footer CSS**/
+/**Footer CSS*********/
 
 #foot {
 	text-align: center;
