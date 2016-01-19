@@ -360,6 +360,16 @@ i:hover {
 .fa-linkedin-square:hover {
     background: #0094BC;
 }
+
+#sm {
+	color: #fcfdfe;
+	padding: 5px;
+}
+
+#sm-footer{
+	color: #a9a9a9;
+	padding: 5px;
+}
 /******************/
 
 /**Schedule CSS**/
