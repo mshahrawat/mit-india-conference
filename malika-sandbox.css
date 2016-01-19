@@ -250,6 +250,12 @@ body {
 	padding-bottom: 30px;
 }
 
+#map {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+
 /******************************/
 
 /**Sponsors Section CSS**/
