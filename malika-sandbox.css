@@ -397,6 +397,20 @@ i:hover {
 }
 /******************/
 
+/*********Team CSS********/
+
+.img-center {
+	margin: 0 auto;
+	height: 200px;
+}
+
+#biotext {
+	font-size: 14px;
+	text-align: left;
+}
+
+/*************************/
+
 /**Footer CSS*********/
 
 #foot {
