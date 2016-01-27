@@ -59,12 +59,25 @@ body {
 }
 
 .jumbotron {
-    background: url(images/FB/10-dark.jpg) no-repeat center center fixed;
+    background: url(images/dome-dark.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 	height:700px;  
+	padding-top: 100px;
+	padding-bottom: 20px;
+	margin-bottom:0px;
+	color:#fff;
+}
+
+.jumbotron-conf {
+    background: url(images/FB/10-dark.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	height:400px;  
 	padding-top: 0px;
 	padding-bottom: 20px;
 	margin-bottom:0px;
@@ -130,8 +143,8 @@ body {
 /**Conference Details/About Section CSS**/
 #about {
 	background-color: #FCFDFE;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 60px;
+	padding-bottom: 60px;
 	font-size: 20px;
 }
 
@@ -171,8 +184,8 @@ body {
 #speakers {
 	background-color: #f69454;
 	color: #fcfdfe;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 60px;
+	padding-bottom: 60px;
 }
 
 .speaker {
@@ -217,6 +230,7 @@ body {
 .photo a:visited,
 .photo a:hover {
 	text-decoration: none;
+	border-radius: 7px;
 }
 
 .photo .info {
@@ -227,7 +241,7 @@ body {
 	background-color: rgba(252, 253, 254, .8);
 	padding: 5px;
 	height: 220px;
-
+	border-radius: 7px;
 	display: none;
 	font-size: 14px;
 	text-align: left;
@@ -239,8 +253,8 @@ body {
 #register {
 	background-color: #739f3d;
 	color: #fcfdfe;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 60px;
+	padding-bottom: 60px;
 }
 /******************/
 
@@ -248,8 +262,8 @@ body {
 #contactinfo {
 	background-color: #739f3d;
 	color: #fcfdfe;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 60px;
+	padding-bottom: 60px;
 }
 
 #map {
@@ -258,7 +272,7 @@ body {
 	display: block;
 }
 
-#venue {
+/**#venue {
 	border-right: 2px solid;
 	border-color: white;
 }
@@ -276,11 +290,16 @@ body {
 	border-left: 2px solid;
 	border-top: 2px solid;
 	border-color: white;
-}
+}**/
 
 #media-lab {
 	height: 250px;
 	border-radius: 7px;
+}
+
+#links {
+	color:#fcfdfe;
+	text-decoration: underline;
 }
 
 /******************************/
@@ -288,8 +307,8 @@ body {
 /**Sponsors Section CSS**/
 #sponsors {
 	background-color: #FCFDFE;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 60px;
+	padding-bottom: 0px;
 }
 
 #platinum {
