@@ -186,6 +186,7 @@ body {
 #speakerpics {
 	height: 220px;
 	display: block;
+	border-radius: 7px;
 }
 
 #teampic {
@@ -257,6 +258,31 @@ body {
 	display: block;
 }
 
+#venue {
+	border-right: 2px solid;
+	border-color: white;
+}
+
+#hotels {
+	border-color: white;
+}
+
+#directions {
+	border-top: 2px solid;
+	border-color: white;
+}
+
+#contact {
+	border-left: 2px solid;
+	border-top: 2px solid;
+	border-color: white;
+}
+
+#media-lab {
+	height: 250px;
+	border-radius: 7px;
+}
+
 /******************************/
 
 /**Sponsors Section CSS**/
@@ -293,7 +319,7 @@ body {
 
 /**Contact US CSS**/
 
-#contact {
+/**#contact {
 	background-color: #A31F34;
 	padding-top: 30px;
 	padding-bottom: 30px;
@@ -314,7 +340,7 @@ body {
 #sendmessage {
 	background-color: #8A8B8C;
 	border-color: #8A8B8C;
-}
+}**/
 /******************/
 
 
@@ -393,6 +419,11 @@ i:hover {
 	width: 950px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+#event-tint {
+	background-color: #dcdcdc;
+	border-radius: 7px;
 }
 /******************/
 
