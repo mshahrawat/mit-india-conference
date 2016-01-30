@@ -18,6 +18,7 @@ body {
 #logobrand {
 	height:75px;
 	border-radius: 5px;
+	padding-left: 10px;
 }
 
 #navbar-scroller {
@@ -162,7 +163,7 @@ body {
 	background-size: cover;
 	color: #FCFDFE;
 	border-radius: 25px;
-	height: 300px;
+	height: 200px;
 }
 
 #theme {
@@ -192,7 +193,7 @@ body {
 	background-color: #f69454;
 	background-size: cover;
 	color: #FCFDFE;
-	height: 400px;
+	height: 350px;
 	width: 280px;
 	border-radius: 7px;
 	text-align: center;
@@ -203,7 +204,7 @@ body {
 	background-size: cover;
 	border: 2px solid;
 	border-color: black;
-	height: 400px;
+	height: 350px;
 	width: 280px;
 	border-radius: 7px;
 	text-align: center;
@@ -213,7 +214,7 @@ body {
 	background-color: #739f3d;
 	background-size: cover;
 	color: #fcfdfe;
-	height: 400px;
+	height: 350px;
 	width: 280px;
 	border-radius: 7px;
 	text-align: center;
@@ -286,6 +287,18 @@ body {
 	font-size: 14px;
 	text-align: left;
 }
+
+#session {
+	/**background-color: #739f3d;**/
+	background-color: rgba(115, 159, 61, 0.9);
+	color: #fcfdfe;
+}
+
+#session1 {
+	/**background-color: #739f3d;**/
+	background-color: rgba(246, 148, 84, 0.9);
+	color: #fcfdfe;
+}
 /******************/
 /***************************/
 
@@ -300,7 +313,8 @@ body {
 
 /**Contact Us Section CSS *****/
 #contactinfo {
-	background-color: #739f3d;
+	/**background-color: #739f3d;**/
+	background-color: #f69454;
 	color: #fcfdfe;
 	padding-top: 60px;
 	padding-bottom: 60px;
@@ -503,6 +517,10 @@ i:hover {
 /********Showcase CSS*******/
 #green-text {
 	color: #739f3d;
+}
+
+#orange-text {
+	color: #f69454;
 }
 /***************************/
 
