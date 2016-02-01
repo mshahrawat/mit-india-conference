@@ -1,0 +1,547 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 80px;
+  padding-bottom: 20px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+/**Navbar Tab CSS**/
+
+#navbarr {
+	background-color: white;
+}
+
+#tabcolor {
+	color: #A31F34;
+}
+
+.navbar-brand {
+	padding-top: 3px;
+}
+
+#logobrand {
+	height:75px;
+	border-radius: 5px;
+	padding-left: 10px;
+}
+
+#navbar-scroller {
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+/**#logo {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}**/
+
+#pillpadding {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#reg {
+	background-color: #ee693f;
+}
+
+#orangetext {
+	color: #ee693f;
+}
+/*******************************/
+
+/**Heading CSS and Jumbotrons***/
+
+#heading {
+	background-color: #FCFDFE;
+	color: #FCFDFE;
+	background: url(http://cdn.wonderfulengineering.com/wp-content/uploads/2015/04/india-wallpaper-6.jpg);
+	background-size: cover;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	font-size: 40px;
+	height: 900px;
+}
+
+.jumbotron {
+    background: url(images/dome-dark.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	height:700px;  
+	padding-top: 100px;
+	padding-bottom: 20px;
+	margin-bottom:0px;
+	color:#fff;
+}
+
+.jumbotron-conf {
+    background: url(images/FB/10-dark.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	height:400px;  
+	padding-top: 0px;
+	padding-bottom: 20px;
+	margin-bottom:0px;
+	color:#fff;
+}
+
+.jumbotron-speaker1 {
+	background: url(images/FB/2-dark.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	height:400px;  
+	padding-top: 0px;
+	padding-bottom: 20px;
+	margin-bottom:0px;
+	color:#fff;
+}
+
+.jumbotron-speaker2 {
+	background: url(images/FB/11-dark.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	height:400px;  
+	padding-top: 0px;
+	padding-bottom: 20px;
+	margin-bottom:0px;
+	color:#fff;
+}
+
+.jumbotron-speaker3 {
+	background: url(images/FB/13-dark.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	height:400px;  
+	padding-top: 0px;
+	padding-bottom: 20px;
+	margin-bottom:0px;
+	color:#fff;
+}
+
+#registerbtn {
+	background-color: #EE693F;
+	border-color: #EE693F;
+}
+
+#MainPhoto {
+	width:1200px;
+	height:800px;
+}
+
+#title {
+	text-align: center;
+	font-size: 100px;
+}
+
+/****************************************/
+
+/**Conference Details/About Section CSS**/
+#about {
+	background-color: #FCFDFE;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	font-size: 18px;
+}
+
+#mission {
+	line-height: 1.5;
+}
+
+#abouts {
+	padding-top: 20px;
+	text-align: center;
+}
+
+#ww {
+	background-color: #f69454;
+	background-size: cover;
+	color: #FCFDFE;
+	border-radius: 25px;
+	height: 200px;
+}
+
+#theme {
+	background-color: #fcfdfe;
+	background-size: cover;
+	border: 2px solid;
+	border-color: #b6e1fc;
+	border-radius: 25px;
+	height: 300px;
+
+}
+
+#sns {
+	background-color: #739f3d;
+	background-size: cover;
+	color: #fcfdfe;
+	border-radius: 25px;
+	height: 300px;
+
+}
+
+#hk {
+	width: 50px;
+}
+
+#ww2 {
+	background-color: #f69454;
+	background-size: cover;
+	color: #FCFDFE;
+	height: 350px;
+	width: 280px;
+	border-radius: 7px;
+	text-align: center;
+}
+
+#theme2 {
+	background-color: #fcfdfe;
+	background-size: cover;
+	border: 2px solid;
+	border-color: black;
+	height: 350px;
+	width: 280px;
+	border-radius: 7px;
+	text-align: center;
+}
+
+#sns2 {
+	background-color: #739f3d;
+	background-size: cover;
+	color: #fcfdfe;
+	height: 350px;
+	width: 280px;
+	border-radius: 7px;
+	text-align: center;
+}
+/***************************/
+
+/**Speakers Section CSS**/
+#speakers {
+	background-color: #f69454;
+	color: #fcfdfe;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.speaker {
+	display: inline-block;
+	padding: 10px;
+	position: relative;
+	color: #fff;
+	text-align: left;
+}
+
+#speakerpics {
+	height: 220px;
+	display: block;
+	border-radius: 7px;
+}
+
+#teampic {
+	height:300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#pic-modal {
+	width: 166px;
+	border-radius: 3px;
+}
+/** Code for descriptions to show up for speakers **/
+
+.photo {
+	text-align: center;
+	display: inline-block;
+	padding: 10px;
+	position: relative;
+	color: #739F3D;
+	/**font-family: 'Pontano Sans', sans-serif;**/
+	font-family: 'Maven Pro', sans-serif;
+}
+
+.photo a:link,
+.photo a:active,
+.photo a:visited,
+.photo a:hover {
+	text-decoration: none;
+	border-radius: 7px;
+}
+
+.photo .info {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	right: 10px;
+	background-color: rgba(252, 253, 254, .8);
+	padding: 5px;
+	height: 220px;
+	border-radius: 7px;
+	display: none;
+	font-size: 14px;
+	text-align: left;
+}
+
+#session {
+	/**background-color: #739f3d;**/
+	background-color: rgba(115, 159, 61, 0.9);
+	color: #fcfdfe;
+}
+
+#session1 {
+	/**background-color: #739f3d;**/
+	background-color: rgba(246, 148, 84, 0.9);
+	color: #fcfdfe;
+}
+/******************/
+/***************************/
+
+/**Registration Section CSS**/
+#register {
+	background-color: #739f3d;
+	color: #fcfdfe;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+/******************/
+
+/**Contact Us Section CSS *****/
+#contactinfo {
+	/**background-color: #739f3d;**/
+	background-color: #f69454;
+	color: #fcfdfe;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+#map {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+
+/**#venue {
+	border-right: 2px solid;
+	border-color: white;
+}
+
+#hotels {
+	border-color: white;
+}
+
+#directions {
+	border-top: 2px solid;
+	border-color: white;
+}
+
+#contact {
+	border-left: 2px solid;
+	border-top: 2px solid;
+	border-color: white;
+}**/
+
+#media-lab {
+	width: 275px;
+	border-radius: 7px;
+}
+
+#links {
+	color:#fcfdfe;
+	text-decoration: underline;
+}
+
+/******************************/
+
+/**Sponsors Section CSS**/
+#sponsors {
+	background-color: #FCFDFE;
+	padding-top: 60px;
+	padding-bottom: 0px;
+}
+
+#platinum {
+	/**height: 160px;**/
+	height: 80px;
+	display: block;
+}
+
+#gold {
+	/**height: 120px;**/
+	height: 80px;
+	display: block;
+}
+
+#silver {
+	height: 80px;
+	display: block;
+}
+
+#partners {
+	/**height: 60px;**/
+	height: 80px;
+	display: block;
+}
+
+/**********************/
+
+/**Contact US CSS**/
+
+/**#contact {
+	background-color: #A31F34;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color: #dcdcdc;
+}
+
+#nameField {
+	border-radius: 5px;
+	width: 300px;
+}
+
+#messageField {
+	border-radius: 5px;
+	width: 600px;
+	height: 200px;
+}
+
+#sendmessage {
+	background-color: #8A8B8C;
+	border-color: #8A8B8C;
+}**/
+/******************/
+
+
+/** Code for Social Media Icons **/
+i {
+    width: 40px;
+    height: 40px;
+    color: #FFF;
+    background-color: #909AA0;
+    font-size: 22px;
+    text-align:center;
+    padding-top: 12px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+i:hover {
+    color: #FFF;
+    text-decoration: none;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.fa-facebook-square:hover {
+    background: #4060A5;
+}
+
+.fa-twitter-square:hover {
+    background: #00ABE3;
+}
+
+.fa-linkedin-square:hover {
+    background: #0094BC;
+}
+
+#sm {
+	color: #fcfdfe;
+	padding: 5px;
+}
+
+#sm-footer{
+	color: #a9a9a9;
+	padding: 5px;
+}
+/******************/
+
+/**Schedule CSS**/
+
+#schedule {
+	background-color: #FCFDFE;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 20px;
+}
+
+.label-default {
+	background-color: #739f3d;
+}
+
+#schedule-speaker {
+	border-radius: 100px;
+	height: 60px;
+}
+
+#schedule-table {
+	width: 950px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#event-tint {
+	background-color: #dcdcdc;
+	border-radius: 7px;
+}
+/******************/
+
+/*********Team CSS********/
+
+.img-center {
+	margin: 0 auto;
+	height: 150px;
+}
+
+#biotext {
+	font-size: 12px;
+	text-align: left;
+}
+
+/*************************/
+
+/********Showcase CSS*******/
+#green-text {
+	color: #739f3d;
+}
+
+#orange-text {
+	color: #f69454;
+}
+/***************************/
+
+/**Footer CSS*********/
+
+#foot {
+	text-align: center;
+}
+
+/*********************/
+
+/**Random CSS**/
+#center {
+	text-align: center;
+}
+
+#padding {
+	padding: 10px;
+}
+/********************/
